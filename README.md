@@ -1,2 +1,2 @@
 # Hackathon-Project
-By Kirsten Salpukas, Rachel Puckket, and Vy Nguyen
+By Kirsten Salpukas, Rachel Puckett, and Vy Nguyen
