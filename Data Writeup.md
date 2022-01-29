@@ -20,7 +20,7 @@ When looking into solving this issue of a high ambulance demand we first wanted 
 
 Here is a quick look at the data from the past five year.
 
-| Year | Total Incidents | P1 | P2 | P3 | P4 | P5 |
+| Year | Total Incidents | Priority 1 | Priority 2 | Priority 3 | Priority 4 | Priority 5 |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | 2017 | 128863 | 10955 | 28823 | 28353 | 46134 | 14598 |
 | 2018 | 122470 | 9825 | 27775 | 27869 | 42990 | 14011 |
@@ -28,11 +28,19 @@ Here is a quick look at the data from the past five year.
 | 2020 | 119233 | 8495 | 25981 | 28882 | 40008 | 15867 |
 | 2021 | 136321 | 10083 | 31238 | 31334 | 46103 | 17563 |
 
+Looking at the data from the past 11 years in graph formats gives us a bit more insight into which categories of priority level are the largest.  
+![BarGraph](https://github.com/vyn203/Hackathon-Project/blob/main/Average_Incidents_Bar_Graph.png?raw=true)
+
+![PieChart](https://github.com/vyn203/Hackathon-Project/blob/main/Average_Incidents_Pie_Chart.png?raw=true)
+
+Here we can see that Priority 4 is the largest, making up 36.7% of all EMS incidents. Putting Priorioty 4 and 5 together (the two least life threatening categories) shows us that they make up almost half of all incidents.
+
 include any code if wanted
 
 ```sh
 code goes here
 ```
+
 ## Demo
 
 (click on picture that is linked to the demo)
