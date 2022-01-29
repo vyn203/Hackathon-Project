@@ -2,7 +2,7 @@
 ### Kirsten Salpukas, Rachel Puckett, Vy Nguyen
 
 ## Introduction
-Introducing ... [projectname]
+Introducing ... AMBIGO.
 
 Today we are often too familiar with seeing headlines from major news articles detailing the struggles faced by Ambulance services, especailly as covid cases continue to rise.
 
@@ -18,16 +18,15 @@ Our project has the goal of reducing some of the pressure on the Ambulance servi
 
 When looking into solving this issue of a high ambulance demand we first wanted to get a sense of the scale of EMS incidents. We got data from the [City of Austin's Open Data Portal](https://data.austintexas.gov/) and found a data set that partains to EMS incidents by month using data from the past 11 years. They rank EMS incidents based upon a 5 point priority scale in which 1 is the highest priority and 5 is the lowest.
 
-charts:
+Here is a quick look at the data from the past five year.
 
-| Col Title | Col Title |
-| ------ | ------ |
-| Row | data |
-| Row | data |
-| Row | data |
-| Row | data |
-| Row | data |
-| Row | data |
+| Year | Total Incidents | P1 | P2 | P3 | P4 | P5 |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 2017 | 128863 | 10955 | 28823 | 28353 | 46134 | 14598 |
+| 2018 | 122470 | 9825 | 27775 | 27869 | 42990 | 14011 |
+| 2019 | 126480 | 9233 | 29362 | 28629 | 44441 | 14815 |
+| 2020 | 119233 | 8495 | 25981 | 28882 | 40008 | 15867 |
+| 2021 | 136321 | 10083 | 31238 | 31334 | 46103 | 17563 |
 
 include any code if wanted
 
