@@ -1,7 +1,6 @@
 # Project Writeup
 ##### Kirsten Salpukas, Rachel Puckett, Vy Nguyen
-#
-#
+
 Introducing ... [projectname]!
 
 ## Background
@@ -26,9 +25,9 @@ include any code if wanted
 code goes here
 ```
 ## Demo
-#
+
 (click on picture that is linked to the demo)
-#
+
 [![N|Solid](https://givebycell.com/wp-content/uploads/2015/08/give_mobilewebsiteicon.png)](https://www.google.com/) 
 ## Features
 
