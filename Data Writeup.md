@@ -1,5 +1,7 @@
 # Project Writeup
-##### Kirsten Salpukas, Rachel Puckett, Vy Nguyen
+### Kirsten Salpukas, Rachel Puckett, Vy Nguyen
+
+## Introduction
 
 Introducing ... [projectname]!
 
