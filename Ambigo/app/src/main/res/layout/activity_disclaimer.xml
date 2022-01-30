@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03a9f4"
+    tools:context=".Disclaimer">
+
+    <TextView
+        android:id="@+id/disclaimerText"
+        android:layout_width="377dp"
+        android:layout_height="503dp"
+        android:background="@color/white"
+        android:text="***DISCLAIMER*** This is a privately owned establishment with no association to actual hospital medics. In case of a life,
+threatening situation, everything falls on you to contact emergency service. You must sign and agree to our terms and conditions before continuing."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <EditText
+        android:id="@+id/signature"
+        android:layout_width="348dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:drawableLeft="@drawable/namehere"
+        android:hint="Sign your full name."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disclaimerText"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="97dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:onClick="disclaimer"
+        android:text="Accept"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signature"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

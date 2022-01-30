@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProblemLocation">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="470dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bottomrectangle" />
+
+    <ImageView
+        android:id="@+id/bottomOptions"
+        android:layout_width="322dp"
+        android:layout_height="61dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:srcCompat="@drawable/bottomoptions" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="98dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:color/transparent"
+        android:onClick="home"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomOptions"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/bottomOptions"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <Button
+        android:id="@+id/ridesButton"
+        android:layout_width="90dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/transparent"
+        android:onClick="locations"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/homeButton"
+        app:layout_constraintTop_toTopOf="@+id/bottomOptions" />
+
+    <Button
+        android:id="@+id/messageButton"
+        android:layout_width="84dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:background="@android:color/transparent"
+        android:onClick="message"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomOptions"
+        app:layout_constraintStart_toEndOf="@+id/ridesButton"
+        app:layout_constraintTop_toTopOf="@+id/bottomOptions"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomOptions"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toEndOf="@+id/messageButton"
+        app:layout_constraintTop_toTopOf="@+id/bottomOptions"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/faqText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where are you located?"
+        android:textColor="#03a9f4"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:drawableLeft="@drawable/ic_location"
+        android:ems="10"
+        android:hint="Enter your address."
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faqText"
+        app:layout_constraintVertical_bias="0.133" /><![CDATA[
+
+
+
+
+
+
+
+
+
+    />
+
+
+
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>
