@@ -35,17 +35,12 @@ Looking at the data from the past 11 years in graph formats gives us a bit more 
 
 Here we can see that Priority 4 is the largest, making up 36.7% of all EMS incidents. Putting Priorioty 4 and 5 together (the two least life threatening categories) shows us that they make up almost half of all incidents.
 
-include any code if wanted
 
-```sh
-code goes here
-```
+## Prototype
 
-## Demo
 
-(click on picture that is linked to the demo)
+[![N|Solid](https://givebycell.com/wp-content/uploads/2015/08/give_mobilewebsiteicon.png)](https://www.figma.com/file/xSZhFlbDJ2T2usY0hvnh4Z/Ambigo?node-id=1%3A74) 
 
-[![N|Solid](https://givebycell.com/wp-content/uploads/2015/08/give_mobilewebsiteicon.png)](https://www.google.com/) 
 ## Features
 
 - Some of the features of this application include Face ID login, in-app payments, injuiry search, location search, family member pickup, favorited locations, driver tracking, trip progress map, and past ride overviews.
@@ -55,6 +50,8 @@ code goes here
 Here are the applications/methods we used in this project
 
 - [Jupyter Notebook](https://jupyter.org/) - Python in Jupyter Notebook was used for data analysis
+- [Figma](https://www.figma.com/) - A vector graphics editor and prototyping tool
+- [Android Studio](https://developer.android.com/studio) - An integrated development environment for Google's Android operating system
 
 ## Data Citation
 Austin-Travis County Emergency Medical Services (2014). EMS – Incidents by Month [data set]. City of Austin, Texas Open Data Portal. Retrieved from https://data.austintexas.gov/Public-Safety/EMS-Incidents-by-Month/gjtj-jt2d.
