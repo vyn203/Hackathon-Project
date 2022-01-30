@@ -39,7 +39,7 @@ Here we can see that Priority 4 is the largest, making up 36.7% of all EMS incid
 ## Prototype
 
 
-[![N|Solid](https://givebycell.com/wp-content/uploads/2015/08/give_mobilewebsiteicon.png)](https://www.figma.com/file/xSZhFlbDJ2T2usY0hvnh4Z/Ambigo?node-id=1%3A74) 
+[![N|Solid](https://github.com/vyn203/Hackathon-Project/blob/main/logo.png?raw=true)](https://www.figma.com/file/xSZhFlbDJ2T2usY0hvnh4Z/Ambigo?node-id=1%3A74) 
 
 ## Features
 
