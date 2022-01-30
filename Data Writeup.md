@@ -48,7 +48,7 @@ code goes here
 [![N|Solid](https://givebycell.com/wp-content/uploads/2015/08/give_mobilewebsiteicon.png)](https://www.google.com/) 
 ## Features
 
-- text
+- Some of the features of this application include Face ID login, in-app payments, injuiry search, location search, family member pickup, favorited locations, driver tracking, trip progress map, and past ride overviews.
 
 ## Tech
 
